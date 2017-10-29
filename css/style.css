@@ -1,0 +1,9 @@
+@font-face { 	font-family: "Burbank"; 	src: url('../font/Burbank.otf'); }
+
+
+body{
+	background-color:  #5ca1e5;
+}
+h1{
+	font-family: Burbank ,"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
