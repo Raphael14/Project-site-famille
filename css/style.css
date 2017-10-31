@@ -1,9 +1,114 @@
 @font-face { 	font-family: "Burbank"; 	src: url('../font/Burbank.otf'); }
 
+html, body{
+	height:100%; 
+	margin:0;
+	padding:0;
+	background-image: url(../image/Fond.png);
 
-body{
-	background-color:  #5ca1e5;
+    background: #076585;  /* fallback for old browsers */
+    background: url(../image/Fond.png), -webkit- linear-gradient(#fff, #076585);
+    background: url(../image/Fond.png), -o- linear-gradient(#fff, #076585);
+    background: url(../image/Fond.png), linear-gradient(#fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	overflow: hidden;
+
+
 }
-h1{
+
+.container-fluid{
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 0;
+
+
+}
+
+
+
+.row-fluid {
+	height: 100%; 
+	display:table-cell; 
+	vertical-align: middle;
+
+	
+}
+.user{
+	background-image: url(../image/User.png);
+	background-repeat: no-repeat;
+	background-position: 90%;
+
+}
+.password{
+	background-image: url(../image/Locked%202.png);
+	background-repeat: no-repeat;
+	background-position: 90%;
+}
+.centering {
+  float:none;
+  margin:0 auto;
+  background-color: #f2f2f2;
+  width: 25rem;
+  height: 18.75rem;
+}
+.titre{
+	background-color: #2994b8;
+	height: 3.9375rem;
 	font-family: Burbank ,"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #f2f2f2;
+	padding-top: 0.5rem;
+	font-size: 2.375rem;
 }
+.form-control{
+	height: 3.125rem;
+	width: 22.1875rem;
+	background-color: #f0eef0;
+	font-family: Burbank ,"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 2.375rem;
+	margin : 1.5rem auto;
+}
+.btn{	
+	font-family: Burbank ,"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 1.75rem;
+	height: 2.5rem;
+	width: 6.25rem;
+	margin-right: 15.625rem;
+	padding-top: 0;
+	overflow: hidden;
+}
+.lost{
+	margin-left: 11.125rem;
+	font-family: Burbank ,"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #999999;
+	font-size: 1.4375rem;
+	line-height: 0.5;
+}
+.span3{
+	position: relative;
+}
+
+
+#nuage1{
+
+	position: absolute;
+	margin-top: -300px;
+	margin-left: -200px;
+}
+#nuage2{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: -300px;
+}
+
+#nuage3{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: -300px;
+}
+
+#nuage4{
+	position: absolute;
+	margin-top: 350px;
+	margin-left: -300px;
+}
+
